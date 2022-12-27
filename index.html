@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="header__balance">
+                <p class="header__text">My balance</p>
+                <h3 class="header__money">$921.48</h3>
+            </div>
+            <img src="images/logo.svg" alt="logo" class="header__logo">
+        </header>
+        <article class="article">
+            <h3 class="article__title">Spending - Last 7 days</h3>
+            <div class="grid" id="grid">
+                <div class="grid__chart">
+                    <div class="grid__bar">
+                        <p class="popup"></p>
+                    </div>
+                    <p class="grid__text">mon</p>
+                </div>
+                <div class="grid__chart">
+                    <div class="grid__bar">
+                        <p class="popup"></p>
+                    </div>
+                    <p class="grid__text">tue</p>
+                </div>
+                <div class="grid__chart">
+                    <div class="grid__bar">
+                        <p class="popup"></p>
+                    </div>
+                    <p class="grid__text">wed</p>
+                </div>
+                <div class="grid__chart">
+                    <div class="grid__bar">
+                        <p class="popup"></p>
+                    </div>
+                    <p class="grid__text">thu</p>
+                </div>
+                <div class="grid__chart">
+                    <div class="grid__bar">
+                        <p class="popup"></p>
+                    </div>
+                    <p class="grid__text">fri</p>
+                </div>
+                <div class="grid__chart">
+                    <div class="grid__bar">
+                        <p class="popup"></p>
+                    </div>
+                    <p class="grid__text">sat</p>
+                </div>
+                <div class="grid__chart">
+                    <div class="grid__bar">
+                        <p class="popup"></p>
+                    </div>
+                    <p class="grid__text">sun</p>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__left">
+                    <p class="footer__this">Total this month</p>
+                    <h3 class="footer__price">$478.33</h3>
+                </div>
+                <div class="footer__right">
+                    <p class="footer__percentage">+2.4%</p>
+                    <p class="footer__last">from last month</p>
+                </div>
+            </footer>
+        </article>
+    </main>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
